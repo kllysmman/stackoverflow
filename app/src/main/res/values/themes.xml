@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Stackoverflow" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="alertDialogTheme">@style/Theme.CustomThemeAlertDialog</item>
+        <!-- Status bar color. -->
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="Theme.CustomThemeAlertDialog" parent="Theme.MaterialComponents.DayNight.Dialog.Alert">
+        <!--Background color-->
+        <!--<item name="android:background">#0000ff</item>-->
+
+        <!--tittle color-->
+        <item name="android:textColor">#ff0000</item>
+
+        <!--text color of message-->
+        <!--<item name="android:textColorPrimary">#ff0000</item>-->
+
+        <!--text color of buttons-->
+        <item name="colorPrimary">#008000</item>
+    </style>
+    <style name="Theme.Test" parent="Theme.Stackoverflow" />
+</resources>
